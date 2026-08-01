@@ -96,12 +96,20 @@ main p a:not(.btn):not(.todo):hover { text-decoration-color: currentColor; }
 }
 
 .nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-family: var(--font-heading);
   font-weight: 600;
   font-size: 1.2rem;
   color: var(--color-primary);
   text-decoration: none;
   letter-spacing: 0.01em;
+}
+
+.nav-brand img {
+  height: 26px;
+  width: auto;
 }
 
 .nav-links {

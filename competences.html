@@ -7,13 +7,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
 
   <header class="site-header">
     <nav class="nav">
-      <a href="index.html" class="nav-brand">Jade Touitou</a>
+      <a href="index.html" class="nav-brand"><img src="assets/img/favicon.png" alt="" />Jade Touitou</a>
       <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
@@ -33,57 +34,92 @@
         <span class="eyebrow">Compétences</span>
         <h1>Ma cartographie de compétences</h1>
         <p class="hero-subtitle">
-          [À COMPLÉTER] Présentation synthétique et hiérarchique de tes compétences,
-          appuyée sur au moins 3 expériences détaillées, dont <strong>obligatoirement</strong>
-          ton stage de 3ème année. Chaque compétence doit être prouvée, quantifiée et
-          contextualisée — pas seulement déclarée.
+          Basée sur le référentiel officiel du BUT GEA, parcours Gestion Entrepreneuriat
+          et Management des Activités (GEMA), et illustrée par trois expériences :
+          mon <strong>stage de 3ème année au Carlton Cannes</strong>, mon poste de
+          vendeuse chez JD Sport, et mon stage chez Rakuten France.
         </p>
       </div>
     </section>
 
-    <!-- ============ COMPÉTENCES CLÉS ============ -->
+    <!-- ============ COMPÉTENCES CLÉS (référentiel GEMA) ============ -->
     <section class="section">
       <div class="container">
         <div class="section-head">
-          <span class="eyebrow">Compétences clés</span>
-          <h2>Ce que je sais faire <span class="todo">TODO</span></h2>
+          <span class="eyebrow">Référentiel BUT GEA — Parcours GEMA</span>
+          <h2>Les 5 compétences du diplôme</h2>
         </div>
         <div class="skill-map">
 
           <div class="card skill-card">
-            <h3>[À COMPLÉTER] Compétence clé 1</h3>
-            <p>
-              [À COMPLÉTER] Preuve concrète : dans quel contexte (quelle expérience),
-              avec quel résultat mesurable.
+            <span class="tag">Tronc commun</span>
+            <h3>Analyser</h3>
+            <p>Analyser les processus de l'organisation dans son environnement.</p>
+            <p><strong>Niveau atteint : 3/3</strong> — Conseiller pour l'amélioration des processus de l'organisation.</p>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-value="100"></div>
+            </div>
+            <p style="margin-top:10px; font-size:0.9rem;">
+              Preuve : au Carlton Cannes, analyse des processus d'intégration des
+              collaborateurs pour identifier les points de friction du service RH.
             </p>
-            <div class="skill-bar-track">
-              <div class="skill-bar-fill" data-value="85"></div>
-            </div>
-            <ul class="proof-list">
-              <li><a href="#">Preuve — [À COMPLÉTER]</a></li>
-            </ul>
           </div>
 
           <div class="card skill-card">
-            <h3>[À COMPLÉTER] Compétence clé 2</h3>
-            <p>[À COMPLÉTER] Preuve concrète, contexte, résultat mesurable.</p>
+            <span class="tag">Tronc commun</span>
+            <h3>Décider</h3>
+            <p>Aider à la prise de décision.</p>
+            <p><strong>Niveau atteint : 3/3</strong> — Concourir à la prise de décision.</p>
             <div class="skill-bar-track">
-              <div class="skill-bar-fill" data-value="75"></div>
+              <div class="skill-bar-fill" data-value="100"></div>
             </div>
-            <ul class="proof-list">
-              <li><a href="#">Preuve — [À COMPLÉTER]</a></li>
-            </ul>
+            <p style="margin-top:10px; font-size:0.9rem;">
+              Preuve : chez Rakuten France, traitement et interprétation de données pour
+              appuyer les équipes marketing digital dans leurs choix.
+            </p>
           </div>
 
           <div class="card skill-card">
-            <h3>[À COMPLÉTER] Compétence clé 3</h3>
-            <p>[À COMPLÉTER] Preuve concrète, contexte, résultat mesurable.</p>
+            <span class="tag">Tronc commun</span>
+            <h3>Piloter</h3>
+            <p>Piloter les relations avec les parties prenantes de l'organisation.</p>
+            <p><strong>Niveau atteint : 3/3</strong> — Améliorer les relations entre les parties prenantes.</p>
             <div class="skill-bar-track">
-              <div class="skill-bar-fill" data-value="80"></div>
+              <div class="skill-bar-fill" data-value="100"></div>
             </div>
-            <ul class="proof-list">
-              <li><a href="#">Preuve — [À COMPLÉTER]</a></li>
-            </ul>
+            <p style="margin-top:10px; font-size:0.9rem;">
+              Preuve : au Carlton Cannes, relation quotidienne avec les équipes en
+              support opérationnel à la DRH ; chez JD Sport, coordination en équipe de
+              vente sous forte affluence.
+            </p>
+          </div>
+
+          <div class="card skill-card">
+            <span class="tag">Spécifique GEMA</span>
+            <h3>Entreprendre</h3>
+            <p>Concevoir la stratégie de création de valeur.</p>
+            <p><strong>Niveau atteint : 2/2</strong> — Sécuriser la proposition de valeur.</p>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-value="100"></div>
+            </div>
+            <p style="margin-top:10px; font-size:0.9rem;">
+              Preuve : <span class="todo">TODO : illustrer avec une SAÉ / un projet business model</span>
+            </p>
+          </div>
+
+          <div class="card skill-card">
+            <span class="tag">Spécifique GEMA</span>
+            <h3>Développer</h3>
+            <p>Assurer la gestion et le développement de la chaîne de valeur.</p>
+            <p><strong>Niveau atteint : 2/2</strong> — Optimiser la chaîne de valeur.</p>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-value="100"></div>
+            </div>
+            <p style="margin-top:10px; font-size:0.9rem;">
+              Preuve : au Carlton Cannes, contribution à la gestion opérationnelle des
+              ressources humaines ; chez JD Sport, participation au développement
+              commercial du point de vente (mise en rayon, attractivité, stocks).
+            </p>
           </div>
 
         </div>
@@ -95,30 +131,29 @@
       <div class="container">
         <div class="section-head">
           <span class="eyebrow">Soft skills</span>
-          <h2>Compétences transversales <span class="todo">TODO</span></h2>
+          <h2>Compétences transversales</h2>
         </div>
         <ul class="pill-list">
-          <li>[À COMPLÉTER]</li>
-          <li>[À COMPLÉTER]</li>
-          <li>[À COMPLÉTER]</li>
-          <li>[À COMPLÉTER]</li>
-          <li>[À COMPLÉTER]</li>
+          <li>Ouverture d'esprit</li>
+          <li>Organisée</li>
+          <li>Esprit d'équipe</li>
+          <li>Créativité</li>
         </ul>
       </div>
     </section>
 
-    <!-- ============ OUTILS ============ -->
+    <!-- ============ OUTILS & LANGUES ============ -->
     <section class="section">
       <div class="container">
         <div class="section-head">
-          <span class="eyebrow">Méthodologie & outils</span>
-          <h2>Ce que j'apporte à mes futurs employeurs <span class="todo">TODO</span></h2>
-          <p>[À COMPLÉTER] Ton "capital méthodologique" : les outils, méthodes et ressources que tu as capitalisés.</p>
+          <span class="eyebrow">Méthodologie &amp; outils</span>
+          <h2>Ce que j'apporte à mes futurs employeurs</h2>
         </div>
         <ul class="pill-list">
-          <li>[À COMPLÉTER — ex. Excel avancé]</li>
-          <li>[À COMPLÉTER — ex. Sage]</li>
-          <li>[À COMPLÉTER — ex. gestion de projet]</li>
+          <li>Pack Office</li>
+          <li>Anglais — B2</li>
+          <li>Espagnol — B2</li>
+          <li>Permis B, véhiculée</li>
         </ul>
       </div>
     </section>
@@ -130,7 +165,7 @@
       <div class="footer-links">
         <a href="contact.html">Contact</a>
         <a href="assets/img/cv-jade-touitou.pdf">CV</a>
-        <a href="#" class="todo">TODO: lien LinkedIn</a>
+        <a href="https://www.linkedin.com/in/jade-touitou" target="_blank" rel="noopener">LinkedIn</a>
       </div>
     </div>
   </footer>
