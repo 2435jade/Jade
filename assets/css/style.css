@@ -304,8 +304,9 @@ main p a:not(.btn):not(.todo):hover { text-decoration-color: var(--color-ink); }
 .stat-value {
   display: block;
   font-family: var(--font-heading);
-  font-size: 1.9rem;
+  font-size: 1.5rem;
   color: var(--color-ink);
+  white-space: nowrap;
 }
 
 .stat-label {
