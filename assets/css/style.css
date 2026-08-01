@@ -286,6 +286,110 @@ main p a:not(.btn):not(.todo):hover { text-decoration-color: var(--color-ink); }
 }
 .btn-outline:hover { border-color: var(--color-accent); color: var(--color-accent); }
 
+/* ---------- Stats strip ---------- */
+
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  margin-top: 2.4em;
+  padding-top: 2em;
+  border-top: 1px solid var(--color-border);
+}
+
+@media (max-width: 640px) {
+  .stats-row { grid-template-columns: repeat(2, 1fr); }
+}
+
+.stat-value {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 1.9rem;
+  color: var(--color-ink);
+}
+
+.stat-label {
+  display: block;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  color: var(--color-ink-soft);
+  margin-top: 4px;
+}
+
+/* ---------- Detail grid (contexte / missions / preuves) ---------- */
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px 32px;
+  margin: 20px 0;
+}
+
+@media (max-width: 640px) {
+  .detail-grid { grid-template-columns: 1fr; }
+}
+
+.detail-grid dt {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 6px;
+}
+
+.detail-grid dd {
+  margin: 0;
+  color: var(--color-ink-soft);
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+/* ---------- Articles page ---------- */
+
+.article-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 1.8em;
+}
+
+.article-nav a {
+  border: 1px solid var(--color-border);
+  padding: 8px 18px;
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+}
+.article-nav a:hover { border-color: var(--color-accent); color: var(--color-accent); }
+
+.article {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.article + .article {
+  margin-top: 8px;
+  padding-top: 72px;
+  border-top: 1px solid var(--color-border);
+}
+
+.article p { color: var(--color-ink-soft); }
+.article h3 { margin-top: 1.6em; }
+
+.article .back-top {
+  display: inline-block;
+  margin-top: 2em;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--color-accent);
+}
+
 /* ---------- Sections ---------- */
 
 .section { padding: 72px 0; }
