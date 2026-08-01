@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jade Touitou — Portfolio BUT GEA</title>
+  <meta name="description" content="Portfolio professionnel de Jade Touitou, étudiante en BUT Gestion des Entreprises et des Administrations, 3ème année." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="nav-brand">Jade Touitou</a>
+      <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html" aria-current="page">Accueil</a></li>
+        <li><a href="formation.html">Formation</a></li>
+        <li><a href="experiences.html">Expériences</a></li>
+        <li><a href="competences.html">Compétences</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ HERO / PAGE D'ACCUEIL ============ -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <span class="eyebrow">BUT Gestion des Entreprises et des Administrations — 3ème année</span>
+          <h1>Jade Touitou <span class="todo">TODO: identité pro en 3-10 mots ici en sous-titre</span></h1>
+          <p class="hero-subtitle">
+            [À COMPLÉTER] Ex. : « Future gestionnaire, orientée finance &amp; organisation »
+            — remplace par ton identité professionnelle en une phrase courte.
+          </p>
+
+          <div class="welcome-note">
+            [À COMPLÉTER] Mot d'accueil très bref (1 à 2 lignes) qui pose le ton et
+            donne envie de lire la suite.
+          </div>
+
+          <p>
+            [À COMPLÉTER] Présentation rapide et complète de toi : ton parcours (passé),
+            ta situation actuelle (présent) et ton projet professionnel. Reste concis :
+            3 à 5 phrases maximum, l'objectif est de donner une vue d'ensemble claire de
+            ton domaine d'activité avant que le lecteur n'explore le reste du site.
+          </p>
+
+          <div class="cta-row">
+            <a href="assets/img/cv-jade-touitou.pdf" class="btn btn-primary" download>Télécharger mon CV</a>
+            <a href="contact.html" class="btn btn-outline">Me contacter</a>
+          </div>
+        </div>
+
+        <div class="hero-photo">
+          <div class="hero-photo-frame">
+            <img src="assets/img/photo-profil.jpg" alt="Jade Touitou en situation professionnelle" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ DOMAINE D'ACTIVITÉ ============ -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Domaine d'activité</span>
+          <h2>Ce que je fais <span class="todo">TODO</span></h2>
+          <p>
+            [À COMPLÉTER] Explicite sans équivoque ton domaine d'activité et le secteur
+            que tu vises (ex. gestion comptable et financière, contrôle de gestion,
+            gestion des ressources humaines, gestion de projet PME/PMI...).
+          </p>
+        </div>
+        <div class="card-grid">
+          <div class="card">
+            <span class="tag">Atout 1</span>
+            <h3>[À COMPLÉTER]</h3>
+            <p>Description courte de cet atout ou de cette activité connexe.</p>
+          </div>
+          <div class="card">
+            <span class="tag">Atout 2</span>
+            <h3>[À COMPLÉTER]</h3>
+            <p>Description courte de cet atout ou de cette activité connexe.</p>
+          </div>
+          <div class="card">
+            <span class="tag">Atout 3</span>
+            <h3>[À COMPLÉTER]</h3>
+            <p>Description courte de cet atout ou de cette activité connexe.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ APERÇU RAPIDE ============ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Explorer le portfolio</span>
+          <h2>Envie d'en savoir plus ?</h2>
+        </div>
+        <div class="card-grid">
+          <a href="formation.html" class="card">
+            <span class="tag">Formation</span>
+            <h3>Mon parcours de formation</h3>
+            <p>Études, diplômes, certifications et productions universitaires.</p>
+          </a>
+          <a href="experiences.html" class="card">
+            <span class="tag">Expériences</span>
+            <h3>Mon parcours d'expériences</h3>
+            <p>Stages, alternances et missions, dont mon stage de 3ème année.</p>
+          </a>
+          <a href="competences.html" class="card">
+            <span class="tag">Compétences</span>
+            <h3>Mes compétences</h3>
+            <p>Une cartographie de mes compétences clés et transversales, preuves à l'appui.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Jade Touitou — Portfolio BUT GEA, IUT de Paris - Rives de Seine</p>
+      <div class="footer-links">
+        <a href="contact.html">Contact</a>
+        <a href="assets/img/cv-jade-touitou.pdf">CV</a>
+        <a href="#" class="todo">TODO: lien LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Jade Touitou</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="nav-brand">Jade Touitou</a>
+      <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="formation.html">Formation</a></li>
+        <li><a href="experiences.html">Expériences</a></li>
+        <li><a href="competences.html">Compétences</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" style="padding-bottom: 24px;">
+      <div class="container">
+        <span class="eyebrow">Contact</span>
+        <h1>Discutons</h1>
+        <p class="hero-subtitle">
+          [À COMPLÉTER] Une phrase d'invitation au contact, cohérente avec ton projet
+          professionnel.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+
+        <div>
+          <div class="contact-item">
+            <div class="contact-icon">@</div>
+            <div>
+              <h3>Email</h3>
+              <p><a href="mailto:[email protected]">[À COMPLÉTER : adresse email pro]</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">in</div>
+            <div>
+              <h3>LinkedIn</h3>
+              <p><a href="#" class="todo">TODO: lien LinkedIn</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">☎</div>
+            <div>
+              <h3>Téléphone</h3>
+              <p>[À COMPLÉTER — optionnel]</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">⬇</div>
+            <div>
+              <h3>Documents</h3>
+              <p>
+                <a href="assets/img/cv-jade-touitou.pdf">Télécharger mon CV (PDF)</a><br />
+                <a href="#" class="todo">TODO: eCard / carte de visite numérique</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Message rapide</h3>
+          <p>[À COMPLÉTER — optionnel] Formulaire de contact simple si tu veux en ajouter un (nécessite un service externe type Formspree, à voir ensemble).</p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Jade Touitou — Portfolio BUT GEA, IUT de Paris - Rives de Seine</p>
+      <div class="footer-links">
+        <a href="contact.html">Contact</a>
+        <a href="assets/img/cv-jade-touitou.pdf">CV</a>
+        <a href="#" class="todo">TODO: lien LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

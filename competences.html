@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Compétences — Jade Touitou</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="nav-brand">Jade Touitou</a>
+      <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="formation.html">Formation</a></li>
+        <li><a href="experiences.html">Expériences</a></li>
+        <li><a href="competences.html" aria-current="page">Compétences</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" style="padding-bottom: 24px;">
+      <div class="container">
+        <span class="eyebrow">Compétences</span>
+        <h1>Ma cartographie de compétences</h1>
+        <p class="hero-subtitle">
+          [À COMPLÉTER] Présentation synthétique et hiérarchique de tes compétences,
+          appuyée sur au moins 3 expériences détaillées, dont <strong>obligatoirement</strong>
+          ton stage de 3ème année. Chaque compétence doit être prouvée, quantifiée et
+          contextualisée — pas seulement déclarée.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ COMPÉTENCES CLÉS ============ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Compétences clés</span>
+          <h2>Ce que je sais faire <span class="todo">TODO</span></h2>
+        </div>
+        <div class="skill-map">
+
+          <div class="card skill-card">
+            <h3>[À COMPLÉTER] Compétence clé 1</h3>
+            <p>
+              [À COMPLÉTER] Preuve concrète : dans quel contexte (quelle expérience),
+              avec quel résultat mesurable.
+            </p>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-value="85"></div>
+            </div>
+            <ul class="proof-list">
+              <li><a href="#">Preuve — [À COMPLÉTER]</a></li>
+            </ul>
+          </div>
+
+          <div class="card skill-card">
+            <h3>[À COMPLÉTER] Compétence clé 2</h3>
+            <p>[À COMPLÉTER] Preuve concrète, contexte, résultat mesurable.</p>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-value="75"></div>
+            </div>
+            <ul class="proof-list">
+              <li><a href="#">Preuve — [À COMPLÉTER]</a></li>
+            </ul>
+          </div>
+
+          <div class="card skill-card">
+            <h3>[À COMPLÉTER] Compétence clé 3</h3>
+            <p>[À COMPLÉTER] Preuve concrète, contexte, résultat mesurable.</p>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-value="80"></div>
+            </div>
+            <ul class="proof-list">
+              <li><a href="#">Preuve — [À COMPLÉTER]</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COMPÉTENCES TRANSVERSALES ============ -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Soft skills</span>
+          <h2>Compétences transversales <span class="todo">TODO</span></h2>
+        </div>
+        <ul class="pill-list">
+          <li>[À COMPLÉTER]</li>
+          <li>[À COMPLÉTER]</li>
+          <li>[À COMPLÉTER]</li>
+          <li>[À COMPLÉTER]</li>
+          <li>[À COMPLÉTER]</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ OUTILS ============ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Méthodologie & outils</span>
+          <h2>Ce que j'apporte à mes futurs employeurs <span class="todo">TODO</span></h2>
+          <p>[À COMPLÉTER] Ton "capital méthodologique" : les outils, méthodes et ressources que tu as capitalisés.</p>
+        </div>
+        <ul class="pill-list">
+          <li>[À COMPLÉTER — ex. Excel avancé]</li>
+          <li>[À COMPLÉTER — ex. Sage]</li>
+          <li>[À COMPLÉTER — ex. gestion de projet]</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Jade Touitou — Portfolio BUT GEA, IUT de Paris - Rives de Seine</p>
+      <div class="footer-links">
+        <a href="contact.html">Contact</a>
+        <a href="assets/img/cv-jade-touitou.pdf">CV</a>
+        <a href="#" class="todo">TODO: lien LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Expériences — Jade Touitou</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="nav-brand">Jade Touitou</a>
+      <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="formation.html">Formation</a></li>
+        <li><a href="experiences.html" aria-current="page">Expériences</a></li>
+        <li><a href="competences.html">Compétences</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" style="padding-bottom: 24px;">
+      <div class="container">
+        <span class="eyebrow">Parcours d'expériences</span>
+        <h1>Mes expériences professionnelles</h1>
+        <p class="hero-subtitle">
+          [À COMPLÉTER] Explique la logique de progression entre tes expériences : pourquoi
+          ces expériences précisément, et en quoi chacune t'a rapprochée de ton projet
+          professionnel.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ TIMELINE EXPÉRIENCES ============ -->
+    <section class="section">
+      <div class="container">
+        <div class="timeline">
+
+          <!-- Stage de 3ème année : OBLIGATOIRE pour la partie Compétences -->
+          <div class="timeline-item stage">
+            <span class="period">2026 · Stage de 3ème année <span class="todo">TODO</span></span>
+            <h3>[À COMPLÉTER] Intitulé du poste — [À COMPLÉTER] Entreprise</h3>
+            <p>
+              [À COMPLÉTER] Contexte de la mission, ce qui t'a été confié, tes
+              responsabilités concrètes.
+            </p>
+            <p>
+              <strong>Valeur ajoutée / apport spécifique :</strong> [À COMPLÉTER] Ce que
+              cette expérience apporte à ton projet professionnel, de façon personnalisée
+              (pas générique).
+            </p>
+            <p>
+              <strong>Résultats tangibles :</strong> [À COMPLÉTER] Un ou deux résultats
+              concrets, si possible quantifiés (ex. chiffre, délai, taux).
+            </p>
+            <ul class="proof-list">
+              <li><a href="#">[À COMPLÉTER] Attestation de stage</a></li>
+              <li><a href="#">[À COMPLÉTER] Livrable / production</a></li>
+              <li><a href="#">[À COMPLÉTER] Recommandation</a></li>
+            </ul>
+          </div>
+
+          <div class="timeline-item">
+            <span class="period">[À COMPLÉTER — Période]</span>
+            <h3>[À COMPLÉTER] Intitulé du poste — [À COMPLÉTER] Entreprise</h3>
+            <p>[À COMPLÉTER] Contexte, missions, valeur ajoutée personnalisée.</p>
+            <ul class="proof-list">
+              <li><a href="#">[À COMPLÉTER] Preuve / lien</a></li>
+            </ul>
+          </div>
+
+          <div class="timeline-item">
+            <span class="period">[À COMPLÉTER — Période]</span>
+            <h3>[À COMPLÉTER] Intitulé du poste — [À COMPLÉTER] Entreprise</h3>
+            <p>[À COMPLÉTER] Contexte, missions, valeur ajoutée personnalisée.</p>
+            <ul class="proof-list">
+              <li><a href="#">[À COMPLÉTER] Preuve / lien</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ DÉMONSTRATION GLOBALE ============ -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Vue d'ensemble</span>
+          <h2>Ce que ces expériences démontrent <span class="todo">TODO</span></h2>
+          <p>
+            [À COMPLÉTER] Une démonstration globale liant toutes tes expériences à ton
+            projet professionnel : le fil rouge de ton parcours.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Jade Touitou — Portfolio BUT GEA, IUT de Paris - Rives de Seine</p>
+      <div class="footer-links">
+        <a href="contact.html">Contact</a>
+        <a href="assets/img/cv-jade-touitou.pdf">CV</a>
+        <a href="#" class="todo">TODO: lien LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
