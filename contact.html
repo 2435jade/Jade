@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Jade Touitou</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="nav-brand"><img src="assets/img/favicon.png" alt="" />Jade Touitou</a>
+      <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="formation.html">Formation</a></li>
+        <li><a href="experiences.html">Expériences</a></li>
+        <li><a href="competences.html">Compétences</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" style="padding-bottom: 24px;">
+      <div class="container">
+        <span class="eyebrow">Contact</span>
+        <h1>Discutons</h1>
+        <p class="hero-subtitle">
+          Après mon stage au Carlton Cannes, je m'apprête à vivre une année de césure à
+          l'étranger — je reste ouverte aux opportunités et échanges, n'hésitez pas à me
+          contacter.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ ET MAINTENANT ============ -->
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+        <div class="card-grid">
+          <div class="card">
+            <span class="tag">Et maintenant ?</span>
+            <h3>Mon projet professionnel</h3>
+            <p>
+              Mon stage au Carlton Cannes et les différents projets menés durant ma
+              formation ont renforcé mon envie d'évoluer dans des secteurs tournés vers
+              l'excellence de service, comme l'hôtellerie de luxe, l'événementiel ou le
+              management. Je reste ouverte aux opportunités qui me permettront
+              d'évoluer dans des fonctions de management, de gestion de projet ou de
+              développement des organisations, avec une forte dimension humaine.
+            </p>
+          </div>
+          <div class="card">
+            <span class="tag">Et maintenant ?</span>
+            <h3>Mon prochain défi — une année pour grandir</h3>
+            <p>
+              Plutôt que d'enchaîner directement avec un master, j'ai choisi de partir
+              une année en césure à l'étranger : perfectionner mon anglais, gagner en
+              autonomie et acquérir une expérience professionnelle internationale.
+              Je préparerai en parallèle les concours d'entrée en grande école, pour
+              poursuivre en master dans le secteur du luxe ou de l'hôtellerie.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top: 0;">
+      <div class="container contact-grid">
+
+        <div>
+          <div class="contact-item">
+            <div class="contact-icon">@</div>
+            <div>
+              <h3>Email</h3>
+              <p><a href="mailto:jade.touitou@icloud.com">jade.touitou@icloud.com</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">in</div>
+            <div>
+              <h3>LinkedIn</h3>
+              <p><a href="https://www.linkedin.com/in/jade-touitou" target="_blank" rel="noopener">linkedin.com/in/jade-touitou</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">☎</div>
+            <div>
+              <h3>Téléphone</h3>
+              <p><a href="tel:+33652617581">+33 6 52 61 75 81</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <h3>Localisation</h3>
+              <p>06400 Cannes — permis B, véhiculée</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">⬇</div>
+            <div>
+              <h3>Documents</h3>
+              <p>
+                <a href="assets/img/cv-jade-touitou.pdf">Télécharger mon CV (PDF)</a><br />
+                <a href="ecard.html">Ma carte de visite numérique (eCard)</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Message rapide</h3>
+          <p>[À COMPLÉTER — optionnel] Formulaire de contact simple si tu veux en ajouter un (nécessite un service externe type Formspree, à voir ensemble).</p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Jade Touitou — Portfolio BUT GEA, IUT de Paris - Rives de Seine</p>
+      <div class="footer-links">
+        <a href="contact.html">Contact</a>
+        <a href="assets/img/cv-jade-touitou.pdf">CV</a>
+        <a href="ecard.html">eCard</a>
+        <a href="https://www.linkedin.com/in/jade-touitou" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
