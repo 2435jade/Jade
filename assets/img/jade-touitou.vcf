@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Touitou;Jade;;;
+FN:Jade Touitou
+TITLE:Étudiante BUT GEA — Parcours GEMA
+EMAIL;TYPE=INTERNET:jade.touitou@icloud.com
+TEL;TYPE=CELL:+33652617581
+ADR;TYPE=HOME:;;;Cannes;;06400;France
+URL:https://www.linkedin.com/in/jade-touitou
+NOTE:Étudiante en BUT Gestion des Entreprises et des Administrations, parcours GEMA — IUT de Paris - Rives de Seine.
+END:VCARD

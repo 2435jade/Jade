@@ -600,6 +600,66 @@ a.card:hover { background: var(--color-bg-alt); }
   margin-left: 6px;
 }
 
+/* ---------- eCard ---------- */
+
+.ecard-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0 24px;
+}
+
+.ecard {
+  width: 100%;
+  max-width: 380px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  padding: 40px 32px;
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+
+.ecard-photo {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 20px;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+}
+
+.ecard-photo img { width: 100%; height: 100%; object-fit: cover; }
+
+.ecard h1 {
+  font-size: 1.6rem;
+  margin-bottom: 0.2em;
+}
+
+.ecard .ecard-title {
+  font-size: 0.85rem;
+  color: var(--color-ink-soft);
+  margin-bottom: 1.6em;
+}
+
+.ecard-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 1.6em;
+}
+
+.ecard-actions .btn { width: 100%; justify-content: center; }
+
+.ecard-links {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 1.8em;
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.ecard-links a { border-bottom: 1px solid var(--color-accent); }
+
 /* ---------- Footer ---------- */
 
 .site-footer {
