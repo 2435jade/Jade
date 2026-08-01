@@ -350,6 +350,30 @@ main p a:not(.btn):not(.todo):hover { text-decoration-color: var(--color-ink); }
   font-style: italic;
 }
 
+/* ---------- Proof gallery (photos justificatives) ---------- */
+
+.proof-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.proof-photo img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border: 1px solid var(--color-border);
+  display: block;
+}
+
+.proof-photo figcaption {
+  margin-top: 8px;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: var(--color-ink-soft);
+}
+
 /* ---------- Articles page ---------- */
 
 .article-nav {
