@@ -543,6 +543,59 @@ a.card:hover { background: var(--color-bg-alt); }
   background: var(--color-accent);
 }
 
+.level-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 5px 12px 5px 9px;
+  border-radius: 999px;
+  margin: 10px 0 4px;
+}
+
+.level-badge::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.level-badge.level-confirmee {
+  color: #3f7a4f;
+  background: #e5f0e3;
+}
+
+.level-badge.level-solide {
+  color: #6b7a2f;
+  background: #eef0d9;
+}
+
+.level-badge.level-progression {
+  color: #b06a2a;
+  background: #f6e6d3;
+}
+
+.improvement-note {
+  margin-top: 14px;
+  padding: 12px 14px;
+  background: var(--color-bg-alt);
+  border-left: 2px solid #b06a2a;
+  font-size: 0.85rem;
+}
+
+.improvement-note strong {
+  display: block;
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #b06a2a;
+  margin-bottom: 4px;
+}
+
 .pill-list {
   list-style: none;
   padding: 0;
