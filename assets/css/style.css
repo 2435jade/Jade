@@ -364,13 +364,21 @@ main p a:not(.btn):not(.todo):hover { text-decoration-color: var(--color-ink); }
   grid-template-columns: minmax(150px, 320px);
 }
 
-.proof-photo img {
+.proof-photo-frame {
+  display: block;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+}
+
+.proof-photo-frame img {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
-  border: 1px solid var(--color-border);
   display: block;
+  transition: transform 0.4s ease;
 }
+
+.proof-photo-frame:hover img { transform: scale(1.05); }
 
 .proof-photo figcaption {
   margin-top: 8px;
@@ -441,8 +449,14 @@ main p a:not(.btn):not(.todo):hover { text-decoration-color: var(--color-ink); }
   padding: 32px 28px;
 }
 
-a.card { transition: background 0.2s ease; }
-a.card:hover { background: var(--color-bg-alt); }
+a.card {
+  transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+a.card:hover {
+  background: var(--color-bg-alt);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+}
 
 .card h3 { margin-bottom: 0.4em; }
 .card .tag {
