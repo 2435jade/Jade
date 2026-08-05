@@ -744,6 +744,36 @@ a.card:hover {
 
 .ecard-links a { border-bottom: 1px solid var(--color-accent); }
 
+/* ---------- Next step / poursuivre la visite ---------- */
+
+.next-step {
+  padding-top: 0;
+}
+
+.next-step-box {
+  text-align: center;
+  padding: 48px 24px;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+
+.next-step-box .eyebrow { display: flex; justify-content: center; margin-bottom: 0.6em; }
+
+.next-step-link {
+  display: inline-block;
+  font-family: var(--font-heading);
+  font-size: clamp(1.2rem, 2.4vw, 1.5rem);
+  color: var(--color-ink);
+  border-bottom: 1px solid var(--color-accent);
+  padding-bottom: 4px;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.next-step-link:hover {
+  color: var(--color-accent);
+  border-color: var(--color-ink);
+}
+
 /* ---------- Footer ---------- */
 
 .site-footer {
