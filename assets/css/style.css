@@ -113,18 +113,37 @@ main p a:not(.btn):not(.todo):hover { text-decoration-color: var(--color-ink); }
   display: flex;
   align-items: center;
   gap: 10px;
-  font-family: var(--font-heading);
-  font-weight: 500;
-  font-size: 1.15rem;
-  letter-spacing: 0.04em;
   color: var(--color-ink);
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 .nav-brand img {
-  height: 22px;
+  height: 26px;
   width: auto;
+}
+
+.nav-brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.nav-brand-eyebrow {
+  font-family: var(--font-body);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+.nav-brand-name {
+  font-family: var(--font-heading);
+  font-weight: 500;
+  font-size: 1.05rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-ink);
 }
 
 .nav-links {
