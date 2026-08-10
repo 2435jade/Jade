@@ -54,6 +54,11 @@ h3 { font-size: 1.2rem; }
 
 p { margin: 0 0 1em; color: var(--color-ink-soft); }
 
+strong, b {
+  font-weight: 600;
+  color: var(--color-accent);
+}
+
 .container {
   max-width: var(--max-width);
   margin: 0 auto;
