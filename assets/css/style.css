@@ -531,28 +531,6 @@ a.card:hover {
   padding: 28px 30px;
 }
 
-.proof-list {
-  list-style: none;
-  padding: 0;
-  margin: 14px 0 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.proof-list li a {
-  display: inline-block;
-  font-size: 0.75rem;
-  letter-spacing: 0.04em;
-  text-decoration: none;
-  color: var(--color-ink);
-  background: transparent;
-  border: 1px solid var(--color-border);
-  padding: 6px 14px;
-}
-
-.proof-list li a:hover { border-color: var(--color-accent); color: var(--color-accent); }
-
 /* ---------- Compétences ---------- */
 
 .skill-map {
@@ -692,20 +670,6 @@ a.card:hover {
   justify-content: center;
   font-size: 0.95rem;
   flex-shrink: 0;
-}
-
-/* ---------- Placeholder helper (visible only while editing) ---------- */
-
-.todo {
-  display: inline-block;
-  font-size: 0.75rem;
-  font-weight: 700;
-  color: #a13d2b;
-  background: #fbe3dc;
-  border: 1px dashed #d97757;
-  padding: 2px 8px;
-  border-radius: 6px;
-  margin-left: 6px;
 }
 
 /* ---------- eCard ---------- */
