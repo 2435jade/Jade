@@ -52,7 +52,12 @@ h1 { font-size: clamp(2.4rem, 5vw, 3.6rem); font-weight: 500; }
 h2 { font-size: clamp(1.6rem, 3vw, 2.1rem); }
 h3 { font-size: 1.2rem; }
 
-p { margin: 0 0 1em; color: var(--color-ink-soft); }
+p {
+  margin: 0 0 1em;
+  color: var(--color-ink-soft);
+  text-align: justify;
+  hyphens: auto;
+}
 
 strong, b {
   font-weight: 600;
@@ -439,11 +444,6 @@ main p a:not(.btn):not(.todo):hover { text-decoration-color: var(--color-ink); }
   border-top: 1px solid var(--color-border);
 }
 
-.article p {
-  color: var(--color-ink-soft);
-  text-align: justify;
-  hyphens: auto;
-}
 .article h3 { margin-top: 1.6em; }
 
 .article .back-top {
@@ -709,6 +709,7 @@ a.card:hover {
   font-size: 0.85rem;
   color: var(--color-ink-soft);
   margin-bottom: 1.6em;
+  text-align: center;
 }
 
 .ecard-actions {
@@ -771,6 +772,8 @@ a.card:hover {
   color: var(--color-ink-soft);
   font-size: 0.85rem;
 }
+
+.site-footer p { text-align: center; }
 
 .footer-links {
   display: flex;
